@@ -4,7 +4,8 @@ var router = express.Router();
 var mongoose = require('mongoose');
 
 
-mongoose.connect('mongodb://localhost:27017/donationsdb');
+//mongoose.connect('mongodb://localhost:27017/donationsdb');
+mongoose.connect('mongodb://james:password@ds015508.mongolab.com:15508/donationsdb');
 
 var db = mongoose.connection;
 
